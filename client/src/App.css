@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #0f1419;
+  color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.header h1 {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.header p {
+  color: #9fb3c8;
+  margin: 0;
+}
+
+.input-section {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.input-section input {
+  flex: 1;
+  padding: 14px 16px;
+  border-radius: 8px;
+  border: 1px solid #2a3441;
+  background: #1a222c;
+  color: #fff;
+  font-size: 15px;
+}
+
+.input-section input:focus {
+  outline: none;
+  border-color: #2a9d8f;
+}
+
+.input-section button {
+  padding: 14px 24px;
+  border-radius: 8px;
+  border: none;
+  background: #2a9d8f;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.input-section button:disabled {
+  background: #4a5561;
+  cursor: not-allowed;
+}
+
+.error {
+  color: #e63946;
+  text-align: center;
+}
+
+.loading-text {
+  color: #9fb3c8;
+  text-align: center;
+}
+
+.results {
+  margin-top: 32px;
+}
+
+.results h2 {
+  border-bottom: 1px solid #2a3441;
+  padding-bottom: 12px;
+}
+
+.score-card {
+  background: #1a222c;
+  border: 1px solid #2a9d8f;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 24px;
+}
+
+.score-card h3 {
+  margin: 0 0 8px 0;
+  color: #2a9d8f;
+}
+
+.score-card p {
+  margin: 0;
+  color: #9fb3c8;
+}
+
+.issues-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.issue-card {
+  display: flex;
+  gap: 14px;
+  background: #1a222c;
+  border-radius: 10px;
+  padding: 16px;
+  border: 1px solid #2a3441;
+}
+
+.severity-badge {
+  flex-shrink: 0;
+  height: fit-content;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #0f1419;
+}
+
+.issue-content {
+  flex: 1;
+}
+
+.file-name {
+  margin: 0 0 4px 0;
+  font-family: monospace;
+  color: #f4a261;
+  font-size: 13px;
+}
+
+.issue-desc {
+  margin: 0 0 6px 0;
+  font-weight: 500;
+}
+
+.suggestion {
+  margin: 0;
+  color: #9fb3c8;
+  font-size: 14px;
+}
